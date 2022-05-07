@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-    // card-text content hiding
     $('.card-content-1').hide()
     $('.card-content-2').hide()
     $('.card-content-3').hide()
@@ -195,8 +193,6 @@ $(document).ready(function() {
                 $('.triangle').show(2000)
             }
         })
-        // ****************************************************************************************************
-        // social media hover
     $('.mediahover').on({
             mouseenter: function() {
                 $(this).css('color', 'white')
@@ -205,5 +201,4 @@ $(document).ready(function() {
                 $(this).css('color', 'black')
             }
         })
-        // ****************************************************************************************************
 });
