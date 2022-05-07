@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // compte à rebours
     var countDownDate = new Date("May 4, 2022 20:00:00").getTime();
     var x = setInterval(function() {
         var now = new Date().getTime();
@@ -19,7 +18,6 @@ $(document).ready(function() {
             $("#timer").text("DELAI EXPIRE");
         }
     }, 1000);
-    // ****************************************************************************************************
 
     $(".button1").on({
         mouseenter: function() {
@@ -36,8 +34,7 @@ $(document).ready(function() {
             });
         },
     });
-    // ****************************************************************************************************
-    // social media hover
+
     $('.mediahover').on({
         mouseenter: function() {
             $(this).css('color', 'white')
